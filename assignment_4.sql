@@ -1,3 +1,4 @@
+-- MySql
 use sys;
 /* 1. From the following tables write a SQL query to find the details of an employee.
 Return full name, email, salary, Department Name, postal code, and City. */
