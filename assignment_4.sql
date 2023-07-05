@@ -70,6 +70,7 @@ salary under the same job_title “developer” is 70k), and whose manager's job
 includes the word 'director'. Finally, include the department name and location of each
 employee, and sort the results by department name in ascending order */
 
+-- filling up empty columns
 ALTER table dependents add column city varchar(50);
 UPDATE dependents set city ='jabalpur' where dependent_id =1;
 UPDATE dependents set city ='bhopal' where dependent_id =2;
@@ -77,7 +78,7 @@ UPDATE dependents set city ='kolkata' where dependent_id =3;
 UPDATE dependents set city ='jaipur' where dependent_id =4;
 UPDATE dependents set city ='New York' where dependent_id =5;
 
-
+-- filling up empty columns
 UPDATE departments set manager_name ='director' where department_id =1;
 UPDATE departments set manager_name ='director' where department_id =2;
 UPDATE departments set manager_name ='supervisor' where department_id =3;
