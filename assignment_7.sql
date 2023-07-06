@@ -1,3 +1,4 @@
+-- MySql
 use sys;
 
 /* 1. Create a trigger to fill up the full_name column in the dependents table while
