@@ -162,7 +162,9 @@ based upon the above data we can make the following normalization table:
 
 since all the attributes on the left hand side are candidate keys , it means this relation dosen't have any transitive dependencies and hence
 the relation is already in **BCNF** form and **further decompostion is not possible.**
-
+Still if we want to do a lossless decomposition , then 
+R1=(STU)
+R2=(UV)
 
 
 
